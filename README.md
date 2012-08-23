@@ -2,7 +2,7 @@ FakeCache will completely disable caching in Habari by providing a fake cache wh
 
 To use it, first move the <code>fakecache.php</code> file into your <code>/user/classes</code> folder.
 
-Then add the following line to index.php, underneath where HABARI_PATH is defined.
+Then add the following line to <code>index.php</code>, underneath where <code>HABARI_PATH</code> is defined.
 
 ```php
 define('CACHE_CLASS', 'FakeCache');
